@@ -4,7 +4,7 @@ A frontend recreation of the supplied **Chatter** Figma landing page design, bui
 
 ## Figma Design
 
-The design was provided as a PDF export from Figma. Add the original Figma URL here if you have it.
+The original design can be found (https://www.figma.com/design/TXzuoMAwGEIfWcAq0HbBNY/purposed?node-id=7-8&p=f&t=WsvXDGvjE2q7ZhHl-0).
 
 ## Technologies Used
 
@@ -46,12 +46,3 @@ chatter-landing-page/
 3. Open `index.html` in your browser or with Live Server.
 
 ## Live Demo
-
-Add your GitHub Pages URL here once deployed.
-
-## Notes
-
-- The supplied Figma export is a desktop layout. Basic tablet and mobile adjustments are included.
-- Images were extracted from the provided PDF design.
-- Login, signup, blog, and support links are demonstration links, not functional application routes. Replace them when those pages exist.
-- The `mailto:hello@example.com` links are placeholders. Replace them with a real address or signup route before publishing.
