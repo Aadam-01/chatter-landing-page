@@ -180,10 +180,10 @@ a:focus-visible {
 .about {
   display: grid;
   grid-template-columns: 1.35fr 1fr;
-  align-items: center;
+  align-items: start;
   gap: 5rem;
-  padding-bottom: 6rem;
-  padding-top: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .about p {
@@ -192,19 +192,20 @@ a:focus-visible {
 }
 
 .about img {
-  width: 100%;
-  aspect-ratio: 1.65;
+   width: 100%;
+  height: auto;
+  aspect-ratio: 1.25 / 1;
   object-fit: cover;
+  object-position: center;
   border-radius: 6px;
 }
 
 /* Features Section */
 .features {
+   width: min(90%, 1040px);
+  margin-inline: auto;
   padding-top: 1.8rem;
   padding-bottom: 6.6875rem;
-  max-width: 1040px;
-  margin-left: 12.5rem;
-  margin-right: 12.5rem;
 }
 
 .features h2 {
@@ -296,8 +297,10 @@ a:focus-visible {
   display: grid;
   grid-template-columns: 0.85fr 1.15fr;
   align-items: center;
-  gap: 6rem;
+  gap: 7.5rem;
+  max-width: 1127px;
   min-height: 390px;
+  padding: 6rem 0 6rem 0;
 }
 
 .community-photos {
@@ -330,7 +333,7 @@ a:focus-visible {
 }
 
 .cta-copy h2 {
-  max-width: 620px;
+  max-width: 469px;
 }
 
 .cta-copy p {
@@ -342,12 +345,19 @@ a:focus-visible {
 .site-footer {
   background: var(--cream);
   padding-block: 4rem;
+  padding-bottom: 10.3125rem;
+  padding-top: 3.75rem;
 }
 
 .footer-grid {
   display: grid;
   grid-template-columns: 1.4fr repeat(3, 1fr);
   gap: 3rem;
+}
+
+.footer-grid > .logo {
+  position: relative;
+  top: 0.8125rem;
 }
 
 .footer-grid h2 {
