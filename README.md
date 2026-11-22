@@ -1,63 +1,57 @@
 # Chatter Landing Page
 
-## 📖 Project Overview
+A frontend recreation of the supplied **Chatter** Figma landing page design, built with HTML5 and CSS3.
 
-Chatter is a responsive landing page for a text-based content platform designed to connect writers and readers.
+## Figma Design
 
-The project involves translating a provided Figma desktop design into a functional, responsive website using a mobile-first development approach.
+The design was provided as a PDF export from Figma. Add the original Figma URL here if you have it.
 
-## 🎯 Project Objectives
+## Technologies Used
 
-- Recreate the provided Figma design accurately.
-- Implement a mobile-first responsive layout.
-- Ensure compatibility across mobile, tablet, and desktop screens.
-- Apply semantic HTML and modern CSS techniques.
-- Maintain clean, readable, and well-organized code.
-- Improve accessibility and user experience.
+- HTML5
+- CSS3 (Flexbox, Grid, media queries)
 
-## 🛠️ Technologies
+## Features
 
-- **HTML5:** Page structure and semantic markup.
-- **CSS3:** Styling, layouts, and responsive design.
-- **JavaScript:** Interactive functionality where required.
-- **Git & GitHub:** Version control and project management.
+1. **Navigation Bar:** Logo, Home, About us, Contact, Blogs, Log in and Sign up.
+2. **Hero Section:** Welcome message, background image and Get started button.
+3. **About Chatter:** Introduction to the platform and its purpose.
+4. **Why Join Chatter:** Cards for analytics, social interactions and content creation.
+5. **Testimonial Section:** User testimonial and profile image.
+6. **Call-to-Action Section:** Community images and Get started button.
+7. **Footer:** Brand logo, Explore, Support and Official blog links.
 
-## 📱 Responsive Design
+## Project Structure
 
-The website is being developed using a mobile-first approach, with layouts adapted for:
+```text
+chatter-landing-page/
+├── index.html
+├── README.md
+├── css/
+│   └── style.css
+└── assets/
+    └── images/
+        ├── hero.jpg
+        ├── library.jpg
+        ├── testimonial.jpg
+        ├── community-1.jpg
+        ├── community-2.jpg
+        └── community-3.jpg
+```
 
-- Mobile devices
-- Tablets
-- Laptops and desktop screens
+## Installation
 
-CSS Flexbox, Grid, fluid layouts, and media queries will be used where appropriate.
+1. Download or clone the repository.
+2. Open the folder in VS Code.
+3. Open `index.html` in your browser or with Live Server.
 
-## ✨ Website Sections
+## Live Demo
 
-- Navigation Header
-- Hero Section
-- About Chatter Section
+Add your GitHub Pages URL here once deployed.
 
-Additional sections will be documented as development progresses.
+## Notes
 
-## 🚧 Project Status
-
-**In Development**
-
-The project is currently under active development, with features and responsive layouts being implemented progressively.
-
-## 📚 What I'm Learning
-
-Through this project, I'm strengthening my understanding of:
-
-- Converting Figma designs into web pages.
-- Responsive web development.
-- Mobile-first CSS architecture.
-- Semantic HTML and accessibility.
-- Git and GitHub workflows.
-
-## 👨‍💻 Author
-
-**Adam**
-
-Frontend Web Development Student
+- The supplied Figma export is a desktop layout. Basic tablet and mobile adjustments are included.
+- Images were extracted from the provided PDF design.
+- Login, signup, blog, and support links are demonstration links, not functional application routes. Replace them when those pages exist.
+- The `mailto:hello@example.com` links are placeholders. Replace them with a real address or signup route before publishing.
