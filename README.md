@@ -1,6 +1,6 @@
 # Chatter Landing Page
 
-A frontend recreation of the supplied **Chatter** Figma landing page design, built with HTML5 and CSS3.
+A frontend recreation **Chatter** Figma landing page design, built with HTML5 and CSS3.
 
 ## Figma Design
 
