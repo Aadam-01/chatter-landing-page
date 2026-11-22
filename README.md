@@ -4,7 +4,7 @@ A frontend recreation of the supplied **Chatter** Figma landing page design, bui
 
 ## Figma Design
 
-The original design can be found (https://www.figma.com/design/TXzuoMAwGEIfWcAq0HbBNY/purposed?node-id=7-8&p=f&t=WsvXDGvjE2q7ZhHl-0).
+The original design can be found at [here](https://www.figma.com/design/TXzuoMAwGEIfWcAq0HbBNY/purposed?node-id=7-8&p=f&t=WsvXDGvjE2q7ZhHl-0).
 
 ## Technologies Used
 
@@ -46,3 +46,5 @@ chatter-landing-page/
 3. Open `index.html` in your browser or with Live Server.
 
 ## Live Demo
+
+You can view the live demo of the landing page [here](https://aadam-01.github.io/chatter-landing-page/).
